@@ -14,6 +14,7 @@
 		45B7EC7528F589C8002D4FD4 /* DoCatchTryThrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7EC7428F589C8002D4FD4 /* DoCatchTryThrow.swift */; };
 		45B7EC7728F590C4002D4FD4 /* DownloadImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7EC7628F590C4002D4FD4 /* DownloadImageAsync.swift */; };
 		45B7EC7928F6E7B7002D4FD4 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7EC7828F6E7B7002D4FD4 /* AsyncAwait.swift */; };
+		45B7EC7D28F6EF37002D4FD4 /* TaskPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7EC7C28F6EF37002D4FD4 /* TaskPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		45B7EC7428F589C8002D4FD4 /* DoCatchTryThrow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrow.swift; sourceTree = "<group>"; };
 		45B7EC7628F590C4002D4FD4 /* DownloadImageAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsync.swift; sourceTree = "<group>"; };
 		45B7EC7828F6E7B7002D4FD4 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
+		45B7EC7C28F6EF37002D4FD4 /* TaskPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				45B7EC7428F589C8002D4FD4 /* DoCatchTryThrow.swift */,
 				45B7EC7628F590C4002D4FD4 /* DownloadImageAsync.swift */,
 				45B7EC7828F6E7B7002D4FD4 /* AsyncAwait.swift */,
+				45B7EC7C28F6EF37002D4FD4 /* TaskPractice.swift */,
 			);
 			path = ModernConcurrency;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45B7EC7728F590C4002D4FD4 /* DownloadImageAsync.swift in Sources */,
+				45B7EC7D28F6EF37002D4FD4 /* TaskPractice.swift in Sources */,
 				45B7EC6928F58081002D4FD4 /* ContentView.swift in Sources */,
 				45B7EC7928F6E7B7002D4FD4 /* AsyncAwait.swift in Sources */,
 				45B7EC6728F58081002D4FD4 /* ModernConcurrencyApp.swift in Sources */,
