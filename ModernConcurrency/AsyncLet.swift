@@ -30,6 +30,7 @@ struct AsyncLet: View {
                     do {
                         
                         /// async let에서는 await를 붙이지 않아도 됨, 나중에 한번에 실행 가능
+                        /// 응답도 return값이 다른 여러 개를 한 번에 받을 수 있음
                         async let fetchImage1 = fetchImage()
                         async let fetchImage2 = fetchImage()
                         async let fetchImage3 = fetchImage()
