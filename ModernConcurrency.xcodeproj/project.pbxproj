@@ -18,6 +18,7 @@
 		45B7EC7F28F82D65002D4FD4 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7EC7E28F82D65002D4FD4 /* AsyncLet.swift */; };
 		45B7EC8128F839B8002D4FD4 /* TaskGroupPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7EC8028F839B8002D4FD4 /* TaskGroupPractice.swift */; };
 		45D20F3F28FD71FF005B3B95 /* CheckContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D20F3E28FD71FF005B3B95 /* CheckContinuation.swift */; };
+		45D20F4128FD79F9005B3B95 /* StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D20F4028FD79F9005B3B95 /* StructClassActor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		45B7EC7E28F82D65002D4FD4 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		45B7EC8028F839B8002D4FD4 /* TaskGroupPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupPractice.swift; sourceTree = "<group>"; };
 		45D20F3E28FD71FF005B3B95 /* CheckContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckContinuation.swift; sourceTree = "<group>"; };
+		45D20F4028FD79F9005B3B95 /* StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				45B7EC7C28F6EF37002D4FD4 /* TaskPractice.swift */,
 				45B7EC7E28F82D65002D4FD4 /* AsyncLet.swift */,
 				45B7EC8028F839B8002D4FD4 /* TaskGroupPractice.swift */,
+				45D20F4028FD79F9005B3B95 /* StructClassActor.swift */,
 				45D20F3E28FD71FF005B3B95 /* CheckContinuation.swift */,
 			);
 			path = ModernConcurrency;
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45B7EC7728F590C4002D4FD4 /* DownloadImageAsync.swift in Sources */,
+				45D20F4128FD79F9005B3B95 /* StructClassActor.swift in Sources */,
 				45B7EC7D28F6EF37002D4FD4 /* TaskPractice.swift in Sources */,
 				45D20F3F28FD71FF005B3B95 /* CheckContinuation.swift in Sources */,
 				45B7EC7F28F82D65002D4FD4 /* AsyncLet.swift in Sources */,
