@@ -5,6 +5,52 @@
 //  Created by yeonBlue on 2022/10/17.
 //
 
+
+/*
+ Value Type:
+ - struct, enum, string, int, etc..
+ - store in the stack, heap을 통한 메모리 공유가 없음
+ - therad 내 stack을 이용하므로 class나 actor보다 훨씬 빠름
+ - thread safe, 데이터의 copy를 전달, arc는 reference type에서만 동작
+ 
+ Reference Type:
+ - class, actor, escaping closure... etc...
+ - heap에 존재, value type보다 slow
+ - not thread safe
+ - 할당 시 새로운 reference가 할당
+ 
+ Stack
+ - store value types
+ - variable은 stack에 할당, fast
+ - each thread는 각자의 stack을 보유
+ 
+ Heap
+ - store reference type
+ - thread간 공유됨
+ 
+ Struct
+ - based on value, stack에 저장
+ 
+ Class
+ - refernce type(instances)
+ - heap에 저장, 상속이 가능
+ 
+ Actor
+ - class와 똑같으나, thread safe
+ - actor 밖에서 property를 변경 불가
+ 
+ Struct
+ - 데이터 모델은 보통 struct - 데이터를 전달할 일이 많기 때문
+ - SwiftUI View도 struct(viewmodel이 바뀔 때마다, view가 새로 생성되서 그려짐)
+ 
+ Class
+ - SwiftUI - Viewmodel(ObservableObject)
+ 
+ Actor
+ - shared Manager나 Data store가 될 때 적합
+ 
+ */
+
 import SwiftUI
 
 struct StructClassActor: View {
@@ -105,6 +151,25 @@ extension StructClassActor {
         class2.updateTitle(newTitle: "Title2")
         print("class2: ", class2.title)
     }
+    
+    private func actorTest1() {
+        Task {
+            print("----- actorTest1 -----")
+            let actorA = MyActor(title: "Start title")
+            let actorB = actorA
+            
+            // actor의 property에 접근하려면 await로 접근해야 함
+            await print("actorA: ", actorA.title)
+            await print("actorB: ", actorB.title)
+            
+            print("actorB Change")
+            // actorB.title = "Second title" // actor 밖에서 변경은 불가능
+            await actorB.updateTitle(newTitle: "Second title")
+            
+            await print("actorA: ", actorA.title)
+            await print("actorB: ", actorB.title)
+        }
+    }
 }
 
 // immutable struct
@@ -139,6 +204,20 @@ struct MutateStruct {
 }
 
 class MyClass { // heap에 저장, escaping closure도 heap에 존재
+    var title: String
+    
+    init(title: String) {
+        self.title = title
+    }
+    
+    func updateTitle(newTitle: String) {
+        self.title = newTitle
+    }
+}
+
+// class와 차이점은 thread safe, 둘 다 heap에 존재하는 reference type
+// multi-thread에서 다른 thread가 특정 property접근 시 await 해야함
+actor MyActor {
     var title: String
     
     init(title: String) {
