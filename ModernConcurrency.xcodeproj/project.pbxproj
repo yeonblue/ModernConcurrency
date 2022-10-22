@@ -17,6 +17,7 @@
 		45B7EC7D28F6EF37002D4FD4 /* TaskPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7EC7C28F6EF37002D4FD4 /* TaskPractice.swift */; };
 		45B7EC7F28F82D65002D4FD4 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7EC7E28F82D65002D4FD4 /* AsyncLet.swift */; };
 		45B7EC8128F839B8002D4FD4 /* TaskGroupPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7EC8028F839B8002D4FD4 /* TaskGroupPractice.swift */; };
+		45C5E9872903C3D900BBF021 /* ActorPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C5E9862903C3D900BBF021 /* ActorPractice.swift */; };
 		45D20F3F28FD71FF005B3B95 /* CheckContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D20F3E28FD71FF005B3B95 /* CheckContinuation.swift */; };
 		45D20F4128FD79F9005B3B95 /* StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D20F4028FD79F9005B3B95 /* StructClassActor.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		45B7EC7C28F6EF37002D4FD4 /* TaskPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPractice.swift; sourceTree = "<group>"; };
 		45B7EC7E28F82D65002D4FD4 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 		45B7EC8028F839B8002D4FD4 /* TaskGroupPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupPractice.swift; sourceTree = "<group>"; };
+		45C5E9862903C3D900BBF021 /* ActorPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorPractice.swift; sourceTree = "<group>"; };
 		45D20F3E28FD71FF005B3B95 /* CheckContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckContinuation.swift; sourceTree = "<group>"; };
 		45D20F4028FD79F9005B3B95 /* StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 				45B7EC7E28F82D65002D4FD4 /* AsyncLet.swift */,
 				45B7EC8028F839B8002D4FD4 /* TaskGroupPractice.swift */,
 				45D20F4028FD79F9005B3B95 /* StructClassActor.swift */,
+				45C5E9862903C3D900BBF021 /* ActorPractice.swift */,
 				45D20F3E28FD71FF005B3B95 /* CheckContinuation.swift */,
 			);
 			path = ModernConcurrency;
@@ -168,6 +171,7 @@
 				45B7EC7F28F82D65002D4FD4 /* AsyncLet.swift in Sources */,
 				45B7EC6928F58081002D4FD4 /* ContentView.swift in Sources */,
 				45B7EC7928F6E7B7002D4FD4 /* AsyncAwait.swift in Sources */,
+				45C5E9872903C3D900BBF021 /* ActorPractice.swift in Sources */,
 				45B7EC8128F839B8002D4FD4 /* TaskGroupPractice.swift in Sources */,
 				45B7EC6728F58081002D4FD4 /* ModernConcurrencyApp.swift in Sources */,
 				45B7EC7528F589C8002D4FD4 /* DoCatchTryThrow.swift in Sources */,
