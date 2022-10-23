@@ -22,6 +22,7 @@
 		45D20F3F28FD71FF005B3B95 /* CheckContinuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D20F3E28FD71FF005B3B95 /* CheckContinuation.swift */; };
 		45D20F4128FD79F9005B3B95 /* StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D20F4028FD79F9005B3B95 /* StructClassActor.swift */; };
 		45D41F7F29050E9300F9760B /* SendablePractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D41F7E29050E9300F9760B /* SendablePractice.swift */; };
+		45D41F81290517EA00F9760B /* AsyncPublisherPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D41F80290517EA00F9760B /* AsyncPublisherPractice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		45D20F3E28FD71FF005B3B95 /* CheckContinuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckContinuation.swift; sourceTree = "<group>"; };
 		45D20F4028FD79F9005B3B95 /* StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActor.swift; sourceTree = "<group>"; };
 		45D41F7E29050E9300F9760B /* SendablePractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendablePractice.swift; sourceTree = "<group>"; };
+		45D41F80290517EA00F9760B /* AsyncPublisherPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherPractice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				45C5E9862903C3D900BBF021 /* ActorPractice.swift */,
 				45C5E9882903E6BA00BBF021 /* GlobalActorPractice.swift */,
 				45D41F7E29050E9300F9760B /* SendablePractice.swift */,
+				45D41F80290517EA00F9760B /* AsyncPublisherPractice.swift */,
 				45D20F3E28FD71FF005B3B95 /* CheckContinuation.swift */,
 			);
 			path = ModernConcurrency;
@@ -176,6 +179,7 @@
 				45D41F7F29050E9300F9760B /* SendablePractice.swift in Sources */,
 				45D20F3F28FD71FF005B3B95 /* CheckContinuation.swift in Sources */,
 				45B7EC7F28F82D65002D4FD4 /* AsyncLet.swift in Sources */,
+				45D41F81290517EA00F9760B /* AsyncPublisherPractice.swift in Sources */,
 				45B7EC6928F58081002D4FD4 /* ContentView.swift in Sources */,
 				45B7EC7928F6E7B7002D4FD4 /* AsyncAwait.swift in Sources */,
 				45C5E9872903C3D900BBF021 /* ActorPractice.swift in Sources */,
